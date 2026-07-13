@@ -2,7 +2,7 @@
 DRaC (Dynamic Recovery and Containment) : Orchestrateur de sécurité (SOAR) Out-of-Band avec auto-réparation pour Proxmox VE, couplé à Wazuh (HIDS) et SLIPS (NIDS/IA).
 # DRaC : Dynamic Recovery and Containment
 
-**DRaC** est un Proof of Concept (PoC) d'orchestrateur de sécurité (SOAR) développé en Python dans le cadre d'un mémoire de fin de formation (Licence en Sécurité Informatique - IFRI / UAC). Il a été conçu pour l'infrastructure de l'entreprise 3DTechlogis (Holding Bourjon).
+**DRaC** est un Proof of Concept (PoC) d'orchestrateur de sécurité (SOAR) développé en Python dans le cadre d'un mémoire de fin de formation (Licence en Sécurité Informatique - IFRI / UAC). Il a été conçu pour l'infrastructure de l'entreprise 3DTechlogis.
 
 ## 📖 Présentation
 Face aux limites des outils de supervision passifs et des réponses locales (In-Band), DRaC propose une architecture de défense **Out-of-Band**. Hébergé sur une machine de management isolée, il écoute les alertes provenant de moteurs de détection avancés et interagit directement avec l'API de l'hyperviseur physique (**Proxmox VE**) pour confiner la cible ou réparer les dégâts de manière autonome.
